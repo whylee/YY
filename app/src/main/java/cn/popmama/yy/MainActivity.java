@@ -65,7 +65,9 @@ public class MainActivity extends AppCompatActivity {
     private void change1(){
         Log.i("tt", "分支下分支1");
     }
-
+    private void change2(){
+        Log.i("tt", "分支下分支2");
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
