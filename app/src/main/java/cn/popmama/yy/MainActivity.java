@@ -46,6 +46,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private void test111(){
+        Log.i("","");
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
