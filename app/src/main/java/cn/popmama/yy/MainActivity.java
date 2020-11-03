@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("","branch");  
     }
     private void branch2(){
-        Log.i("","branch2");
+        Log.i("","branch2 + change by demo 2");
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
