@@ -1,18 +1,16 @@
 package cn.popmama.yy;
 
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.util.Log;
-import android.view.View;
-
-import android.view.Menu;
-import android.view.MenuItem;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,8 +38,12 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    private void test1(){
-        Log.i("","");
+    private void test1() {
+        Log.i("", "");
+    }
+    
+    private void test2(){
+
     }
 
     @Override
