@@ -53,6 +53,10 @@ public class MainActivity extends AppCompatActivity {
     private void test3(){
         Log.i("","ddd");
     }
+
+    private void branch1(){
+        Log.i("","branch");  
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
